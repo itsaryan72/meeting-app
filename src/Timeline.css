@@ -1,0 +1,36 @@
+/* src/Timeline.css */
+.timeline-container {
+    height: 100%;
+    width: 300px; /* Adjust width as needed */
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .react-calendar-timeline {
+    height: 100%;
+    width: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .react-calendar-timeline .rct-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .timeline-item {
+    background-color: #00ff6a;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .react-calendar-timeline .rct-vertical-line {
+    display: none; /* Hide horizontal lines */
+  }
+ 
